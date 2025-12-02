@@ -31,7 +31,7 @@ module "account_qa_01" {
     custom2 = "b"
   }
 
-  # account_customizations_name = "qa-Environment"
+  account_customizations_name = "qa-server"
 
   
 }

@@ -31,7 +31,7 @@ module "account_dev_01" {
     custom2 = "b"
   }
 
-  # account_customizations_name = "DEV-Environment"
+  account_customizations_name = "DEV-Environment"
 
   
 }
