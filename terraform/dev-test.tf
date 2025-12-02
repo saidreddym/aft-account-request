@@ -1,4 +1,4 @@
-module "account_request_01" {
+module "account_dev_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -31,7 +31,7 @@ module "account_request_01" {
     custom2 = "b"
   }
 
-  account_customizations_name = "DEV-Environment"
+  # account_customizations_name = "DEV-Environment"
 
   
 }
